@@ -8,13 +8,14 @@ Building a wifi enabled sad-lamp alarm clock
 ## Technologies Used
 
 - ESP8266/Arduino
-- CAMCAM (github.com/daveansell/camcam)
+- CAMCAM  www.github.com/daveansell/camcam
 
 ## Elements
 
 ### Hardware
 
 - RGBUV LED light strips
+  - See ./light-strip.md
 - MOSFET control board
 - ESP8266 micro controller
 
