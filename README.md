@@ -15,7 +15,7 @@ Building a wifi enabled sad-lamp alarm clock
 ### Hardware
 
 - RGBUV LED light strips
-  - See ./light-strip.md
+  - See [./light-strip.md](./blob/master/light-strip.md)
 - MOSFET control board
 - ESP8266 micro controller
 
