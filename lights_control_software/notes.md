@@ -15,3 +15,4 @@ server.on("/edit", HTTP_PUT, handleCreate);
 server.on("/edit", HTTP_POST, [](){ returnOK(); });
 ``
 - eeprom read/write values (useful for storing defaults for brightness) https://github.com/sandeepmistry/esp8266-Arduino/blob/master/esp8266com/esp8266/libraries/EEPROM/examples/eeprom_write/eeprom_write.ino
+- Better esp8266 static ip post http://www.esp8266.com/wiki/doku.php?id=arduino-docs#esp8266wifi
