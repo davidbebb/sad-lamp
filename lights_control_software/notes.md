@@ -8,11 +8,11 @@ Notes
  - esp8266 arduino libs, including esp webserver https://github.com/sandeepmistry/esp8266-Arduino/tree/master/esp8266com/esp8266/libraries
  - useful note on get/put/post/delete (CRUD) implementation (taken from [here](https://github.com/sandeepmistry/esp8266-Arduino/blob/master/esp8266com/esp8266/libraries/ESP8266WebServer/examples/SDWebServer/SDWebServer.ino), line 264 onwards)
 
-``
+```
 server.on("/list", HTTP_GET, printDirectory);
 server.on("/edit", HTTP_DELETE, handleDelete);
 server.on("/edit", HTTP_PUT, handleCreate);
 server.on("/edit", HTTP_POST, [](){ returnOK(); });
-``
+```
 - eeprom read/write values (useful for storing defaults for brightness) https://github.com/sandeepmistry/esp8266-Arduino/blob/master/esp8266com/esp8266/libraries/EEPROM/examples/eeprom_write/eeprom_write.ino
 - Better esp8266 static ip post http://www.esp8266.com/wiki/doku.php?id=arduino-docs#esp8266wifi
