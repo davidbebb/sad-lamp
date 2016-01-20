@@ -8,10 +8,10 @@ int blue = 9;
 int green = 11;
 int uv = 6;
 
-float uv_sun = 0;//0.95935;
-float b_sun =  .2;//1.00000;
+float uv_sun = 0.95;//0.95935;
+float b_sun =  1;//1.00000;
 float g_sun = .6;//0.6;
-float r_sun =  1;//0.48;
+float r_sun =  0.5;//0.48;
 
 int brightness = 0;
 
